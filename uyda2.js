@@ -6,21 +6,21 @@
 // let malumot = new Talaba("Javohir", 10, 17)
 // console.log(malumot)
 
-// function turtburchak (tomon1){
+// function Turtburchak (tomon1){
 //     this.tomoni = tomon1
 // }
 // let tomonlar = new turtburchak(4)
-// turtburchak.prototype.peremetr= function(){
+// Turtburchak.prototype.peremetr= function(){
 //     return this.tomoni * 4
 // }
-// turtburchak.prototype.yuzi= function(){
+// Turtburchak.prototype.yuzi= function(){
 //     return this.tomoni * this.tomoni
 // }
 // console.log(`P: ` + tomonlar.peremetr())
 // console.log(`S: ` + tomonlar.yuzi())
 
 // Talaba.prototype.getInfo = function (){
-//     console.log("Salom mening ismim " + this.ism + " sinfim " + this.sinfi + " yoshim " + this.yoshi)
+//     console.log("Ism: " + this.ism + ", Sinf: " + this.sinfi + ", Yosh: " + this.yoshi)
 // }
 // let talaba1 = new Talaba("Javohir",10,17)
 // talaba1.getInfo()
@@ -38,11 +38,11 @@
 // console.log(boshi())
 
 // let a = prompt("Enter your age!")*1
-// function foydalanuvchi (a){
+// function Foydalanuvchi (a){
 //     this.age = a;
 // }
-// let user = new foydalanuvchi(a)
-// foydalanuvchi.prototype.isAdult = function(){
+// let user = new Foydalanuvchi(a)
+// Foydalanuvchi.prototype.isAdult = function(){
 //     if (this.age >= 18){
 //         return true;
 //     }else{
